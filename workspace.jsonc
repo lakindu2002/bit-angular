@@ -39,6 +39,7 @@
     "packageManager": "teambit.dependencies/yarn",
     "policy": {
       "dependencies": {
+        "@angular-eslint/eslint-plugin": "^15.2.1",
         "@teambit/angular": "^3.0.3",
         "@teambit/angular-base": "1.0.3",
         "@teambit/angular-mounter": "1.0.1",
@@ -57,7 +58,8 @@
   },
   "teambit.generator/generator": {
     "envs": [
-      "my-org.my-scope/envs/my-angular-env"
+      "lakinduhewa.learn-bit/envs/my-angular-env"
     ]
-  }
+  },
+  "lakinduhewa.learn-bit/apps/my-angular-app": {}
 }

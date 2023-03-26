@@ -17,6 +17,7 @@ import hostDependencies from './preview/host-dependencies';
 export class MyAngularEnv extends AngularV15Env {
   // Name of the environment, used for friendly mentions across bit
   name = 'my-angular-env';
+
   // Package name of the environment, used for generators & starters
   packageName = '@my-org/my-scope.envs.my-angular-env';
 

@@ -9,29 +9,33 @@
  */
 
 {
-    "envs/my-angular-env": {
+    "apps/my-angular-app": {
         "scope": "",
         "version": "",
-        "defaultScope": "lakinduhewa.learn-bit",
         "mainFile": "index.ts",
-        "rootDir": "learn-bit/envs/my-angular-env",
+        "rootDir": "learn-bit/apps/my-angular-app",
         "config": {
-            "teambit.envs/env": {},
+            "lakinduhewa.learn-bit/envs/my-angular-env@0.0.1": {},
             "teambit.envs/envs": {
-                "env": "teambit.envs/env"
-            },
-            "teambit.dependencies/dependency-resolver": {},
-            "teambit.compositions/compositions": {},
-            "teambit.docs/docs": {},
-            "teambit.preview/preview": {},
-            "teambit.component/dev-files": {},
-            "teambit.pipelines/builder": {},
-            "teambit.component/forking": {
-                "forkedFrom": {
-                    "scope": "teambit.angular",
-                    "name": "forks/angular-env-v15",
-                    "version": "0.0.3"
-                }
+                "env": "lakinduhewa.learn-bit/envs/my-angular-env"
+            }
+        }
+    },
+    "envs/my-angular-env": {
+        "scope": "lakinduhewa.learn-bit",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "learn-bit/envs/my-angular-env"
+    },
+    "ui/button": {
+        "scope": "",
+        "version": "",
+        "mainFile": "public-api.ts",
+        "rootDir": "learn-bit/ui/button",
+        "config": {
+            "lakinduhewa.learn-bit/envs/my-angular-env@0.0.1": {},
+            "teambit.envs/envs": {
+                "env": "lakinduhewa.learn-bit/envs/my-angular-env"
             }
         }
     },
